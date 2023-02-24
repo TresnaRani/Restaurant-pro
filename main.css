@@ -1,0 +1,251 @@
+
+
+
+
+.navbar{
+    background-color:coral;
+}
+ .nav-link:hover{
+    color: blue;
+
+}
+.book{
+    background-color: blue;
+    border-radius: 5rem;
+}
+.nav:hover {
+    color: blue;
+}
+
+.col-lg-9 a:hover{
+    background-color: rebeccapurple;
+ 
+
+}
+.col-lg-6{
+    height: 400px;
+}
+.rounded-circle{
+    height: 300px;
+    width: 450px;
+    margin-top: 50px;
+}
+
+
+
+
+.heading{
+    color:brown;
+}
+.section-header{
+    text-align: center;
+    color: rebeccapurple;
+}
+
+.img-adjust{
+
+    width:400px !important;
+    background-color: aqua;
+
+}
+
+
+
+/*about section*/
+.section-header{
+
+    background-color:coral;
+}
+.about-section{
+    color: red;
+}
+.call-us
+{
+
+background-color: red;
+color: white;
+text-align: center;
+
+}
+h5,p,li{
+    color: blue;
+}
+.card {
+    background-color:red;
+}
+.card-header{
+    background-color: blue;
+}
+.card-title{
+    color: white;
+}
+.card:hover{
+    color: red;
+}
+.card:hover{
+
+    box-shadow: 0 16px 32px 0 ;
+}
+.card-text{
+    color: black;
+}
+
+
+/*menu*/
+
+.nav-item{
+    color:red;
+}
+.tab-header{
+   color: blue;
+}
+.tab-header:hover{
+    color: red;
+}
+  
+.col-lg-3:hover{
+    color: red;
+
+ }
+
+
+ /*event section */
+ .event{
+
+    background-color: coral;
+    color: red;
+ }
+ .text{
+    color: blue;
+ }
+ .img-fluid{
+    height: 300px;
+    width: 300px;
+ }
+
+ 
+ /*chefs  section */
+ .chefs{
+
+   margin-top: 40px;
+   background-color: coral;
+ }
+
+
+  /*book-a-table */
+ .book-a-table{
+    margin-top: 40px;
+ }
+
+ button{
+    background-color:red;
+ }
+
+
+ .contact{
+    margin-top: 40px;
+ }
+
+
+   /*footere */
+
+ #footer{
+    background-color: cadetblue;
+ }
+ .footer:hover{
+   color:red;
+ }
+ .footer{
+    color: white;
+ }
+ 
+ .fa-brands {
+    font-size: 1.5rem;
+ }
+ .link{
+    color:yellow;
+ }
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+    /* show 3 items */
+    .carousel-inner .active,
+    .carousel-inner .active + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
+        display: block;
+    }
+    
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+    
+    .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    
+    /* farthest right hidden item must be abso position for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
+}
+
+ /* Bootstrap Lightbox using Modal */
+
+#profile-grid { overflow: auto; white-space: normal; } 
+#profile-grid .profile { padding-bottom: 40px; }
+#profile-grid .panel { padding: 0 }
+#profile-grid .panel-body { padding: 15px }
+#profile-grid .profile-name { font-weight: bold; }
+#profile-grid .thumbnail {margin-bottom:6px;}
+#profile-grid .panel-thumbnail { overflow: hidden; }
+#profile-grid .img-rounded { border-radius: 4px 4px 0 0;}
