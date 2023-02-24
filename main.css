@@ -127,11 +127,16 @@ h5,p,li{
  }
 
  
+
+ 
  /*chefs  section */
  .chefs{
 
    margin-top: 40px;
    background-color: coral;
+ }
+ .chefs {
+    color: red;
  }
 
 
@@ -139,9 +144,15 @@ h5,p,li{
  .book-a-table{
     margin-top: 40px;
  }
+ .section-header{
+    color: red;
+ }
 
  button{
     background-color:red;
+ }
+ .loading{
+    color: indianred;
  }
 
 
