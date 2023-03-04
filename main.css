@@ -71,7 +71,7 @@ h5,p,li{
     color: blue;
 }
 .card {
-    background-color:red;
+    background-color:yellowgreen;
 }
 .card-header{
     background-color: blue;
@@ -80,7 +80,7 @@ h5,p,li{
     color: white;
 }
 .card:hover{
-    color: red;
+    color:red;
 }
 .card:hover{
 
